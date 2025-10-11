@@ -1,5 +1,5 @@
 # Understanding Customer Preferences in a DVD Rental Company
-Using MySQL | By Subham Pramanick
+Using MySQL | By Aryan Verma
 
 ## Introduction: 
 

@@ -26,6 +26,13 @@ This structure allows the model to learn from both **past trends** and **current
 **Libraries Used:**  
 `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `xgboost`, `catboost`, `lightgbm`, `statsmodels`
 
-Install dependencies with:
-```bash
-pip install -r requirements.txt
+## 🧩 Concepts Used
+- **Data Preprocessing:** Handling missing values, scaling features, encoding categorical variables
+- **Time-Series/Data Split:** Creating training and testing sets based on time or sequence
+- **Feature Engineering:** Generating lag variables, rolling averages, and trend indicators
+- **Predictive Modeling:** Dynamic regression, boosting algorithms, and ensemble learning
+- **Model Evaluation:** RMSE, MAE, R² score, and dynamic accuracy tracking across time windows
+
+## 🏁 Conclusion
+This project demonstrates how dynamic machine learning models can adapt to evolving data patterns and enhance real-time predictive performance.
+By integrating advanced ensemble and time-aware algorithms, it highlights the importance of model flexibility and continuous learning in **data-driven decision-making systems**.

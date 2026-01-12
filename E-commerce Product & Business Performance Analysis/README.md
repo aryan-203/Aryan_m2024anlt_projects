@@ -101,6 +101,20 @@ to maintain data integrity and support scalable analytical queries.
 - **Visualization:** Power BI  
 - **Documentation:** Markdown
 
+# 1. Data Validation
+## 1.1 Row count check
+```sql
+SELECT 'customers' AS table_name, COUNT(*) AS row_count FROM customers
+UNION ALL
+SELECT 'products', COUNT(*) FROM products
+UNION ALL
+SELECT 'orders', COUNT(*) FROM orders
+UNION ALL
+SELECT 'user_events', COUNT(*) FROM user_events
+UNION ALL
+SELECT 'sessions', COUNT(*) FROM sessions;
+```
+## 1.2 Orders without matching customers
 ```sql
 SELECT *
 FROM orders o

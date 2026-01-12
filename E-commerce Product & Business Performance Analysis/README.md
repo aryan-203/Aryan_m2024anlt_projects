@@ -99,4 +99,11 @@ to maintain data integrity and support scalable analytical queries.
 - **Querying:** SQL  
 - **Version Control:** GitHub  
 - **Visualization:** Power BI  
-- **Documentation:** Markdown  
+- **Documentation:** Markdown
+
+```sql
+SELECT *
+FROM orders o
+LEFT JOIN customers c ON o.customer_id = c.customer_id
+WHERE c.customer_id IS NULL;
+```

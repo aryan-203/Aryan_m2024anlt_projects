@@ -63,19 +63,6 @@ product performance.
 
 ---
 
-## Logical Data Model Overview
-The data model is designed to clearly separate identity, behavior, and transactions:
-
-- **Customers**: Stores customer demographic and segmentation information  
-- **Products**: Stores product category, pricing, and cost details  
-- **Orders**: Captures transactional purchase and revenue data  
-- **User Events**: Tracks user behavior across the purchase funnel  
-- **Sessions**: Captures session-level engagement and acquisition data  
-
-This structure supports both business analytics and product analytics use cases.
-
----
-
 ## Data Requirements
 To achieve the business goals and compute KPIs, the following data is required:
 - Customer demographics and segments

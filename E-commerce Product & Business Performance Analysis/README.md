@@ -88,19 +88,6 @@ Each dataset directly maps to a specific business question to avoid redundancy.
 
 ---
 
-## Database Schema
-The project uses a relational schema implemented in MySQL with primary and foreign key constraints
-to maintain data integrity and support scalable analytical queries.
-
----
-
-## Tools & Technologies
-- **Database:** MySQL  
-- **Querying:** SQL  
-- **Version Control:** GitHub  
-- **Visualization:** Power BI  
-- **Documentation:** Markdown
-
 # 1. Data Validation
 ## 1.1 Row count check
 ```sql
